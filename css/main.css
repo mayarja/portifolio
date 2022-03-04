@@ -34,7 +34,7 @@ body {
   background-color: var(--blue-color);
   transition: 0.5s;
 }
-.navbar .navbar-nav .nav-item :hover::before,
+.navbar .navbar-nav .nav-item:hover::before,
 .navbar .navbar-nav .active::before {
   width: 100%;
 }
