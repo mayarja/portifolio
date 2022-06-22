@@ -33,3 +33,11 @@ let lodi =document.getElementById('lod');
 let lt = setTimeout(function(e){
     lodi.style.display="none"
 },4000)
+
+
+let yyy = ['Ameer','alsayed','mahmoud','Ahmad','ayman','israa','Anas','amal','amr','aml'];
+
+let ui = yyy.filter(function(e){
+        return e.match(/\bA\w+/ig);
+})
+console.log(ui.sort((a,b) => a.length - b.length))
